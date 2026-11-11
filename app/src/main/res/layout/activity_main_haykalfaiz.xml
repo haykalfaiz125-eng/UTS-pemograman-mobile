@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Outer Rounded Container like in Image 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card_haykalfaiz"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Header Banner: GAJI KARYAWAN -->
+        <TextView
+            android:id="@+id/tvHeaderMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_banner_haykalfaiz"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/header_gaji_karyawan"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <!-- 2x2 Menu Grid -->
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2">
+
+            <!-- Menu 1: Gaji Pegawai -->
+            <LinearLayout
+                android:id="@+id/btnGajiPegawai"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/bg_card_haykalfaiz"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:contentDescription="@string/menu_gaji_pegawai"
+                    android:src="@drawable/ic_gaji_haykalfaiz" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/menu_gaji_pegawai"
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Menu 2: Petunjuk -->
+            <LinearLayout
+                android:id="@+id/btnPetunjuk"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/bg_card_haykalfaiz"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:contentDescription="@string/menu_petunjuk"
+                    android:src="@drawable/ic_petunjuk_haykalfaiz" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/menu_petunjuk"
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Menu 3: Tentang -->
+            <LinearLayout
+                android:id="@+id/btnTentang"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/bg_card_haykalfaiz"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:contentDescription="@string/menu_tentang"
+                    android:src="@drawable/ic_tentang_haykalfaiz" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/menu_tentang"
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Menu 4: Exit -->
+            <LinearLayout
+                android:id="@+id/btnExit"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/bg_card_haykalfaiz"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:contentDescription="@string/menu_exit"
+                    android:src="@drawable/ic_exit_haykalfaiz" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/menu_exit"
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </GridLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <!-- Footer Banner: www.sandrio.com -->
+        <TextView
+            android:id="@+id/tvFooterWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_banner_haykalfaiz"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="www.HaykalFaiz devloper"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

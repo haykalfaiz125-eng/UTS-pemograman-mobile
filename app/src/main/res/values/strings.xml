@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Aplikasi Penghitung Gaji - HaykalFaiz</string>
+    <string name="header_gaji_karyawan">GAJI KARYAWAN</string>
+    <string name="menu_gaji_pegawai">Gaji Pegawai</string>
+    <string name="menu_petunjuk">Petunjuk</string>
+    <string name="menu_tentang">Tentang</string>
+    <string name="menu_exit">Exit</string>
+    <string name="footer_website">www.sandrio.com</string>
+    <string name="title_petunjuk">PETUNJUK PENGGUNAAN</string>
+    <string name="title_tentang">TENTANG APLIKASI</string>
+    <string name="btn_kembali">Kembali</string>
+    <string name="btn_hitung">HITUNG</string>
+
+    <!-- Hints untuk Gaji Activity -->
+    <string name="hint_nik">Nomor Induk Karyawan</string>
+    <string name="hint_nama">Nama Karyawan</string>
+    <string name="hint_gaji_pokok">Gaji Pokok</string>
+    <string name="hint_tunjangan_jabatan">Tunjangan Jabatan</string>
+    <string name="hint_jumlah_hari_kerja">Jumlah Hari Kerja</string>
+    <string name="hint_tunjangan_makan">Tunjangan Makan</string>
+    <string name="hint_tunjangan_transportasi">Tunjangan Transportasi</string>
+    <string name="hint_gaji_kotor">Gaji Kotor</string>
+    <string name="hint_gaji_bersih">Gaji Bersih</string>
+
+    <!-- Petunjuk Penggunaan -->
+    <string name="petunjuk_1">1. Jalankan Aplikasi</string>
+    <string name="petunjuk_2">2. Pilih Icon Gaji Pegawai untuk menjalankan simulasi</string>
+    <string name="petunjuk_3">3. Pilih petunjuk penggunaan untuk cara penggunaan</string>
+    <string name="petunjuk_4">4. Pilih Tentang Aplikasi untuk informasi tentang aplikasi</string>
+    <string name="petunjuk_5">5. Pilih Exit untuk keluar aplikasi</string>
+
+    <!-- Tentang Aplikasi -->
+    <string name="tentang_versi">Sallary Counting Versi 1.0</string>
+    <string name="tentang_author">By: HaykalFaiz</string>
+    <string name="tentang_email">Email: herianto.sy@gmail.com</string>
+</resources>
